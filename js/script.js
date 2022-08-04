@@ -32,7 +32,7 @@ do {
             while (elegirProd != 7) {
                 elegirProd = parseInt(
                     prompt(
-                        `Que marca y sabor agregamos al carrito\n====================================\n1-helado de crema de 1 kilo $2000\n2-helado de dulce de lechede 1 kilo $2500\n3-helado de frutilla de 1 kilo $2000\n4-helado de tramontana de 1 kilo $1500\n5-helado de oreo 1 kilo $2800\n6-helado de durazno de 1 kilo $1800\n7-Salir`
+                        `Que marca y sabor agregamos al carrito\n====================================\n1-helado de crema de 1 kilo $2500\n2-helado de dulce de lechede 1 kilo $2000\n3-helado de frutilla de 1 kilo $1500\n4-helado de tramontana de 1 kilo $1850\n5-helado de oreo 1 kilo $2000\n6-helado de durazno de 1 kilo $1990\n7-Salir`
                     )
                 );
                 switch (elegirProd) {
